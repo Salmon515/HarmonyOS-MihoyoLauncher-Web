@@ -11,7 +11,7 @@ A lightweight WebView-based launcher for miHoYo's cloud games, optimized for Har
 - **Clean UI**: Simple, intuitive interface for quick access to miHoYo games.  
 
 ## 📥 Installation  
-1. Download the latest .hap file from [Releases]().  
+1. Download the latest .hap file from [Releases](https://github.com/Salmon515/HarmonyOS-MihoyoLauncher-Web/releases/).  
 2. Use sideloader tools on your device to install the .hap file
 3. Play and enjoy it!
 
