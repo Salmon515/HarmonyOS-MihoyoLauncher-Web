@@ -2,8 +2,6 @@
 
 A lightweight WebView-based launcher for miHoYo's cloud games, optimized for HarmonyOS with minimal performance overhead and smooth operation.  
 
-![Banner Image](https://t8.baidu.com/it/u=2605637465,758765396&fm=217&app=126&size=re3,2&q=75&n=0&g=4n&f=PNG&fmt=auto&maxorilen2heic=2000000?s=B1914F3647D355C01D62E1C3030050F8)
-
 ## ✨ Features  
 - **WebView-Powered**: Uses the system's native WebView for efficient performance.  
 - **Low Resource Usage**: Minimal CPU/RAM consumption compared to full browsers.  
