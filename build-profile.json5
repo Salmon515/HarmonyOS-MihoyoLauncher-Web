@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Salmon\\.ohos\\config\\default_MihoyoLauncher_mqjmWZDiVRsRZG8JYgqzTdRPpSMsl14kRAoyHGox-_Y=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001AB819F552D5FC5D70DE65A1E7C7A09880BF572505348992E08EEA75742F2B6B8E54455046A96F",
+          "profile": "C:\\Users\\Salmon\\.ohos\\config\\default_MihoyoLauncher_mqjmWZDiVRsRZG8JYgqzTdRPpSMsl14kRAoyHGox-_Y=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Salmon\\.ohos\\config\\default_MihoyoLauncher_mqjmWZDiVRsRZG8JYgqzTdRPpSMsl14kRAoyHGox-_Y=.p12",
+          "storePassword": "0000001AA53618716D14532DB0D8DA6A1E33A5C8EA6B20D14756C2F75F517FE188CA9BCF168C35702CA9"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
